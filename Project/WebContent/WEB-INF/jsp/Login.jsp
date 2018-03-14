@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>ログイン</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+<nav class="navbar navbar-dark bg-dark">
+  <br>
+</nav><br>
+
+
+<div class="container">
+
+<div><h1>ログイン画面</h1></div>
+
+<div class="alert alert-secondary" role="alert">
+	<div>ログインID
+		<input type="text" name="id"></div>
+</div>
+
+<div class="alert alert-secondary" role="alert">
+	<div>パスワード
+		<input type="text" name="passward"></div>
+</div>
+
+<div><a href = "Home.html"><input type = "submit" class="btn btn-primary" value = "ログイン"></a></div>
+
+</div>
+
+</body>
+</html>
